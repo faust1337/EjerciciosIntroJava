@@ -10,7 +10,7 @@ public class Ejercicio17 {
         n = Math.abs(n);
         while(n>0){
             n=n/10;
-            cantidadDeDigitos++;
+            cantidadDeDigitos++; 
         }
         return cantidadDeDigitos;
     }
@@ -33,6 +33,5 @@ public class Ejercicio17 {
         for (int i = 0; i < n; i++) {
             System.out.println("El " + (i+1) + "º número tiene " + contarDigitos(vec[i]) + " dígitos.");
         }
-    }
-    
+    }    
 }

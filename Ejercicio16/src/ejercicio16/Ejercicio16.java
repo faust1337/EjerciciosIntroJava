@@ -23,7 +23,6 @@ public class Ejercicio16 {
         }
         if (coincidencias > 1){
             System.out.println("Está repetido " + coincidencias + " veces.");
-        }
-    }
-    
+        }else if(coincidencias == 0) System.out.println("No se encontró.");
+    }    
 }

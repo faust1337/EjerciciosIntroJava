@@ -9,17 +9,15 @@ import java.util.*;
 */
 
 public class Ejercicio14 {
+    
     public static void intercambio(int euro, String cambio){
         switch (cambio){
             case "libras":
-                System.out.println("Son " + euro*0.86 + " libras.");
-                break;
+                System.out.println("Son " + euro*0.86 + " libras."); break;
             case "dolar":
-                System.out.println("Son " + euro*1.28611 + " dólares.");
-                break;
+                System.out.println("Son " + euro*1.28611 + " dólares."); break;
             case "yen":
-                System.out.println("Son " + euro*129.852 + " yenes.");
-                break;
+                System.out.println("Son " + euro*129.852 + " yenes."); break;
             default:
                 System.out.println("Esa moneda no existe. Reintente.");
         }
@@ -32,7 +30,8 @@ public class Ejercicio14 {
         System.out.print("Cantidad de  euros a convertir: ");
         int n = leer.nextInt();
         System.out.print("Moneda a convertir: ");
-        cambio = leer.next(); cambio = cambio.toLowerCase();
+        cambio = leer.next(); 
+        cambio = cambio.toLowerCase();
         intercambio(n,cambio); 
         while(opc!='N' && opc!='n'){
             System.out.println("¿Desea procesar nuevamente? S/N");
