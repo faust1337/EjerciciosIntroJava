@@ -29,7 +29,7 @@ public class Ejercicio14 {
         Scanner leer = new Scanner(System.in);
         String cambio;
         char opc = 0;
-        System.out.print("Cantidad de euros a convertir: ");
+        System.out.print("Cantidad de  euros a convertir: ");
         int n = leer.nextInt();
         System.out.print("Moneda a convertir: ");
         cambio = leer.next(); cambio = cambio.toLowerCase();
