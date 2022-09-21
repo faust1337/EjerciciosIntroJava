@@ -31,7 +31,6 @@ public class Ejercicio19 {
         }
         if (flag == true) {
             System.out.println("La matriz es anti-simétrica.");
-        }else{System.out.println("La matriz no es anti-simétrica.");}
-       
+        }else System.out.println("La matriz no es anti-simétrica.");      
     }    
 }
