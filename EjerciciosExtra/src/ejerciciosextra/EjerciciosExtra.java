@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package extraej1;
+package ejerciciosextra;
 
 /**
  *
  * @author Omen
  */
-public class ExtraEj1 {
+public class EjerciciosExtra {
 
     /**
      * @param args the command line arguments

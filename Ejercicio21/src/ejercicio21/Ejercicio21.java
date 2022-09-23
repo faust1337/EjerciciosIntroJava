@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Ejercicio21 {
 
-    @SuppressWarnings("empty-statement")
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
         int[][] m = new int[10][10], p = new int[3][3];
