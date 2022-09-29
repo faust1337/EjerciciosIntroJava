@@ -12,8 +12,8 @@ public class ExtraEj11 {
     
     public static int cantDigitos(int n){
         int digitos = 0;
-        if(n==0) n++;        
-        n = Math.abs(n);        
+        if(n==0) n++;
+        n = Math.abs(n);
         while(n>0){
             n/=10;
             digitos++;
